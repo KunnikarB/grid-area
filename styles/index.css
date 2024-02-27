@@ -1,0 +1,99 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, ifr);
+  gap: 1.2rem;
+  background-color: white;
+  padding: 1rem;
+}
+
+.grid-container > div {
+  text-align: start;
+  padding: 1rem;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+
+.item1 {
+  grid-area: 6 / 1 / 6 / 7;
+  background-color: #9BC1BC;
+}
+
+.item2 {
+  grid-area: 3 / 1/ 3 / 3;
+  background-color: #2B9348 ;
+  color: #2B9348;
+}
+
+.item3 {
+  grid-area: 4 / 1 / 6 / 3;
+  background-color: #55A630;
+  color: #55A630;
+}
+
+.item4 {
+  grid-area: 1 / 1 / span 2 / 3;
+  background-color: #007F5F;
+  color: #007F5F;
+}
+
+.item5 {
+  grid-area: 1 / 3 / 4 / 5 ;
+  background-color: #80B918;
+  color: #80B918;
+}
+
+.item6 {
+  grid-area: 4 / 3 / 5 / 4;
+  background-color: #AACC00;
+  color: #AACC00;
+}
+
+.item7 {
+  grid-area: 5 / 3 / 6 / 4;
+  background-color: #BFD200;
+  color: #BFD200;
+}
+
+.item8 {
+  grid-area: 4 / 4 / 6 / 6 ;
+  background-color: #D4D700;
+  color: #D4D700;
+}
+
+.item9 {
+  grid-area: 4 / 6 / 6 / 7 ;
+  background-color: #007F5F;
+  color: #007F5F;
+}
+
+.item10 {
+  grid-area: 1 / 5 / 2 / 7 ;
+  background-color: #DDDF00;
+  color: #DDDF00;
+}
+
+.item11 {
+  grid-area: 2 / 5 / 3 / 7;
+  background-color: #EEEF20;
+  color: #EEEF20;
+}
+
+.item12 {
+  grid-area: 3 / 5 / 4 / 7;
+  background-color:#FFFF3F ;
+  color: #FFFF3F;
+}
+
